@@ -1,0 +1,109 @@
+<!-- _includes/decrypted-text.html -->
+{% assign id = include.id | default: 'decrypted-' | append: include.text | slugify %}
+{% assign text = include.text | default: 'Texto encriptado' %}
+{% assign speed = include.speed | default: 50 %}
+{% assign maxIterations = include.maxIterations | default: 10 %}
+{% assign sequential = include.sequential | default: false %}
+{% assign revealDirection = include.revealDirection | default: 'start' %}
+{% assign characters = include.characters | default: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+' %}
+{% assign animateOn = include.animateOn | default: 'hover' %}
+
+<div id="{{ id }}"></div>
+
+<script>
+// Esperar a que React y motion estén cargados
+function initDecryptedText() {
+  if (typeof React === 'undefined' || typeof ReactDOM === 'undefined' || typeof motion === 'undefined') {
+    setTimeout(initDecryptedText, 100);
+    return;
+  }
+  
+  const { createRoot } = ReactDOM;
+  
+  const root = createRoot(document.getElementById('{{ id }}'));
+  
+  root.render(
+    React.createElement(window.DecryptedText, {
+      text: `{{ text }}`,
+      speed: {{ speed }},
+      maxIterations: {{ maxIterations }},
+      sequential: {{ sequential }},
+      revealDirection: '{{ revealDirection }}',
+      characters: `{{ characters }}`,
+      className: 'decrypted-char',
+      encryptedClassName: 'encrypted-char',
+      parentClassName: 'decrypted-text-wrapper',
+      animateOn: '{{ animateOn }}',
+      style: {
+        fontFamily: "'JetBrains Mono', monospace",
+        fontSize: '{{ include.fontSize | default: "1.2rem" }}',
+        color: '{{ include.color | default: "#e6edf3" }}'
+      }
+    })
+  );
+}
+
+// Cargar dependencias si no están
+if (typeof React === 'undefined') {
+  const scriptReact = document.createElement('script');
+  scriptReact.src = 'https://unpkg.com/react@18/umd/react.development.js';
+  scriptReact.crossOrigin = true;
+  document.head.appendChild(scriptReact);
+}
+
+if (typeof ReactDOM === 'undefined') {
+  const scriptReactDOM = document.createElement('script');
+  scriptReactDOM.src = 'https://unpkg.com/react-dom@18/umd/react-dom.development.js';
+  scriptReactDOM.crossOrigin = true;
+  scriptReactDOM.onload = function() {
+    // Cargar motion después de React
+    if (typeof motion === 'undefined') {
+      const scriptMotion = document.createElement('script');
+      scriptMotion.type = 'module';
+      scriptMotion.innerHTML = `
+        import { motion } from 'https://esm.sh/motion@10.16.4';
+        window.motion = motion;
+        (${initDecryptedText.toString()})();
+      `;
+      document.head.appendChild(scriptMotion);
+    } else {
+      initDecryptedText();
+    }
+  };
+  document.head.appendChild(scriptReactDOM);
+} else if (typeof motion === 'undefined') {
+  const scriptMotion = document.createElement('script');
+  scriptMotion.type = 'module';
+  scriptMotion.innerHTML = `
+    import { motion } from 'https://esm.sh/motion@10.16.4';
+    window.motion = motion;
+    (${initDecryptedText.toString()})();
+  `;
+  document.head.appendChild(scriptMotion);
+} else {
+  initDecryptedText();
+}
+</script>
+
+<style>
+.decrypted-text-wrapper {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.decrypted-char {
+  color: #3a86ff;
+  transition: color 0.3s ease;
+}
+
+.encrypted-char {
+  color: #ff006e;
+  opacity: 0.8;
+  text-shadow: 0 0 5px rgba(255, 0, 110, 0.5);
+}
+
+.decrypted-text-wrapper:hover {
+  transform: translateY(-2px);
+}
+</style>
