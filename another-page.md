@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-
+@import DecryptedText from './assets/js/DecryptedText.js';
+	
 ## Welcome to another page
-
-<script src="{{ '/assets/js/DecryptedText.js' | relative_url }}">
-	import DecryptedText from './DecryptedText';
 	
 	<DecryptedText
 		text="borterion"
@@ -16,8 +14,6 @@ layout: default
 		parentClassName="all-letters"
 		encryptedClassName="encrypted"
 	/>
-</script>
-
 </div>
 
 
