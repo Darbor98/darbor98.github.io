@@ -10,5 +10,9 @@ layout: cloud
                                data-speed="60">sonificar datos complejos</span>.</p>
 
 
+\begin{equation}
+H\psi(x,y) = E\psi(x,y),
+\end{equation}
+
 
 [back](./)
