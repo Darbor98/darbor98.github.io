@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+
+{% seo %}
+  </head>
+
+  <body>
+	<header class="site-header">
+	  <div class="terminal-bar">
+		<div class="terminal-dots">
+		  <span style="background:#ff5f56;"></span>
+		  <span style="background:#ffbd2e;"></span>
+		  <span style="background:#27ca3f;"></span>
+		</div>
+		<div class="terminal-title">guest@borterion:~</div>
+	  </div>
+	  
+	  <!-- Efecto de texto que escribe (requiere JS) -->
+	  <div class="dynamic-title">
+		<h1 id="typewriter"> >> <span class="typed-text"></span><span class="cursor"></span></h1>
+	  </div>
+	</header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+    
+	<script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
+
+
+  </body>
+  
+
+</html>
