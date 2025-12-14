@@ -337,3 +337,81 @@ a {
 #a-title {
   text-decoration: none;
 }
+
+/* En tu CSS principal */
+.decrypted-text {
+  --primary-color: #3a86ff;
+  --accent-color: #ff006e;
+  --terminal-bg: #0a0e14;
+  --terminal-text: #e6edf3;
+  
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  background: linear-gradient(135deg, 
+    rgba(10, 14, 20, 0.8) 0%,
+    rgba(26, 31, 46, 0.8) 100%);
+  border: 1px solid rgba(58, 134, 255, 0.3);
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.decrypted-text::before {
+  content: '>';
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent-color);
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+
+.decrypted-char {
+  color: var(--primary-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 0 10px currentColor;
+}
+
+.encrypted-char {
+  color: var(--accent-color);
+  opacity: 0.9;
+  animation: glitch 0.3s infinite;
+  text-shadow: 
+    0 0 5px var(--accent-color),
+    0 0 10px var(--accent-color);
+}
+
+@keyframes glitch {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-1px); }
+  75% { transform: translateX(1px); }
+}
+
+/* Efecto de scanline para el texto encriptado */
+.decrypted-text-wrapper:hover .encrypted-char {
+  position: relative;
+}
+
+.decrypted-text-wrapper:hover .encrypted-char::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--accent-color),
+    transparent
+  );
+  animation: scanline 0.5s linear infinite;
+}
+
+@keyframes scanline {
+  0% { top: -100%; }
+  100% { top: 100%; }
+}

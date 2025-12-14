@@ -1,22 +1,14 @@
 ---
 layout: default
 ---
-@import DecryptedText from './assets/js/DecryptedText.js';
-	
-## Welcome to another page
-	
-	<DecryptedText
-		text="borterion"
-		speed={100}
-		maxIterations={20}
-		characters="ABCD1234!?"
-		className="revealed"
-		parentClassName="all-letters"
-		encryptedClassName="encrypted"
-	/>
-</div>
+<h2><span data-decrypt="Transformando Física en Música" 
+          data-speed="40"
+          data-iterations="12">Transformando Física en Música</span></h2>
+
+<p>Mi trabajo consiste en <span data-decrypt="sonificar datos complejos"
+                               data-chars="█▓▒░"
+                               data-speed="60">sonificar datos complejos</span>.</p>
 
 
-_yay_
 
 [back](./)
