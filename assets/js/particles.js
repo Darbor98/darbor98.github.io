@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   canvas.style.height = '100%';
   canvas.style.pointerEvents = 'none';
   canvas.style.zIndex = '-1';
-  canvas.style.opacity = '0.15'; // Muy sutil
+  canvas.style.opacity = '0.45'; // Muy sutil
   document.body.appendChild(canvas);
   
   // Resize
