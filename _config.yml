@@ -1,12 +1,12 @@
 title: borterion
-#description: Where the Art meets Science. Giving the universe a voice. Physicist, musician, creative coder.
+description: Physicist, musician, creative coder.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-- jekyll-scholar
+ - jekyll-remote-theme # add this line to the plugins list if you already have one
+ - jekyll-scholar
 # Site Build
 highlighter:        rouge
 markdown:           kramdown
