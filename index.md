@@ -10,7 +10,35 @@ I work with minimal hardware and deliberately constrained systems, sometimes usi
 Emotionally, my work sits in melancholia, introspection, and quiet intensity. I’m drawn to slowness, ambiguity, and things that almost disappear. If there’s a common thread, it’s this: listening closely to what’s usually invisible, and turning it into something you can feel.
 
 <div class="tagline">
-  <span data-decrypt="Transformando ecuaciones en melodías"
+  <span data-decrypt="
+	                                                                   =-                               
+                                     +                           :█+                                
+                  
+                                       #%                     .██                                   
+                                        ██.                  =██++                                  
+                                       @███=                *██=                                    
+                                      .██.#█▒   *           ███                                     
+                                     *██     ██:.=        █████▓                                    
+                                      %███. ▒%  .▓=     %███████*=                                  
+                                    :#█=-@█▓     ██+= +█▒.:.█:-██*                                 
+                                    = .█@   @█% :█▒ ██▓██     *  #█=                                
+                                      #█%.    ▒███.@▓█████    *   ▓██-                              
+                                       = @███#  -    ▓#▓█@.   -██▒                               
+                                       ▒█+-██@█▓-   . :██  ▓▓@██████                                
+                                       +████@. █.   -.█▒    +███#-██▓                               
+                                        ████:  .█+                
+                                      .███#     ▓@███▓    :██.    ▓█:                               
+                                      █████▒▓     =██      #█▓     %                                
+                                    :%# +▓@= .     ▓*       -█     *█:                              
+                                 .  @-  =:*▒ :   ▓+         █%.    -█-                              
+                                  =█: .▒@ %     .-         @@       .▓                              
+                                 @*. =.█  *      :        .█          %                             
+                               @▓▓    ▓                                *                            
+                                +▒.  -                                                              
+                              :.--                                                   
+                             #:      =                                                              
+                            *                                                                       
+"
 		data-speed="20"
 		data-chars="∫∑∏√∞∂∇∈∉∩∪⇒⇔∀∃∅∆"
 		style="font-size: 1.1rem;">
@@ -45,6 +73,6 @@ Emotionally, my work sits in melancholia, introspection, and quiet intensity. I�
   </span>
 </div>
 
-[cd /music](./music.html)
-[cd /electronic](./clouds.html)
-[Link to another page](./another-page.html).
+- [cd /music](./music.html)
+- [cd /Polyrrythmic](./clouds.html)
+- [Link to another page](./another-page.html).
