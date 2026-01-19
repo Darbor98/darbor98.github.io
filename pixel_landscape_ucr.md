@@ -38,3 +38,5 @@ píxeles.
 
 La parte musical puede ser accedida mediante el siguiente link:
 [cd /this-place-made-me-calm](https://youtu.be/xwQfONyBQ2k?si=-a89swe1fTHnaiJB)
+
+![this-place-made-me-calm](darbor98.github.io/assets/images/out_-29.png)
