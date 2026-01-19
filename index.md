@@ -6,5 +6,5 @@ layout: default
 I am a physicist and musician operating where data becomes emotion. My work transforms astrophysical signals and algorithms into music, sound design, and software instruments. Moving between ambient textures, archival materials, and custom-built tools, I treat sonification as a way of listening to the invisible. I embrace minimal hardware and "obsolete" tech to explore slowness, melancholia, and the physical shape of data—turning scientific structures into something you can feel.
 
 - [cd /music](./music.html)
-- [cd /Polyrrythmic](./clouds.html)
+- [cd /Polyrhythmic-Harmonies-from-the-Sky](./clouds.html)
 - [Link to another page](./another-page.html).
