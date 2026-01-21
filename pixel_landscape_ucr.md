@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
+#this place made me calm | a pixel art landscape
 Esta obra —una pieza de pixel art lo-fi generada algorítmicamente— fue reconocida con una **mención especial** en el Certamen Estudiantil de Artes Visuales Bidimensionales 2025 de la Universidad de Costa Rica. El jurado destacó su carácter innovador y experimental, situándose en la frontera entre el análisis de datos, la programación creativa y la expresión visual íntima.
 
-## ¿Cómo hacer que los datos —estructuras abstractas del mundo, invisibles a la
-vista— puedan tocarse, sentirse y escucharse?
+## ¿Cómo hacer que los datos —estructuras abstractas del mundo, invisibles a la vista— puedan tocarse, sentirse y escucharse?
 
 La pieza visual fue generada utilizando bases de datos institucionales de la
 UCR, que fueron limpiadas y procesadas mediante algoritmos de reducción de
