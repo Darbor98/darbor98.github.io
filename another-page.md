@@ -1,5 +1,5 @@
 ---
-layout: cloud
+layout: default_2
 ---
 <h2><span data-decrypt="Transformando Física en Música" 
           data-speed="40"
