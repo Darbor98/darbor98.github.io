@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#this place made me calm | a pixel art landscape
+# this place made me calm | a pixel art landscape
 Esta obra —una pieza de pixel art lo-fi generada algorítmicamente— fue reconocida con una **mención especial** en el Certamen Estudiantil de Artes Visuales Bidimensionales 2025 de la Universidad de Costa Rica. El jurado destacó su carácter innovador y experimental, situándose en la frontera entre el análisis de datos, la programación creativa y la expresión visual íntima.
 
 ## ¿Cómo hacer que los datos —estructuras abstractas del mundo, invisibles a la vista— puedan tocarse, sentirse y escucharse?
@@ -37,6 +37,7 @@ físico al arte. El propio universo expresándose en algoritmos, entre partitura
 píxeles.
 
 La parte musical puede ser accedida mediante el siguiente link:
+
 [cd /this-place-made-me-calm](https://youtu.be/xwQfONyBQ2k?si=-a89swe1fTHnaiJB)
 
 ![this-place-made-me-calm](darbor98.github.io/assets/images/out_-29.png)
