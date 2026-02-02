@@ -21,3 +21,5 @@ Each piece represents weeks, months, or even years of: Accumulated modifications
 Every cut, every burn, and every nail has left a mark on me, just as I have left mine on them.
 
 [cd /Jazz-Bass-type--MAD:_Quartz_Transformer](./Mad_quartz_destroyer.md)
+
+[cd ./back](./index.md)

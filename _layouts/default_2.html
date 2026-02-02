@@ -17,7 +17,9 @@
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    <h2 class="subtitle">
+      {{ site.description }}
+      </h2>
 
       </div>
     </header>
@@ -28,9 +30,12 @@
       </section>
     </div>
 
-    <script src="{{ '/assets/js/DecryptedTextSimple.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/DecryptedTextSimple.js' | relative_url }}"></script>
 	<script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
 	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  
 
   </body>
 </html>
