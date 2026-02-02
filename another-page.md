@@ -7,7 +7,7 @@ layout: cloud
 
 <p>Mi trabajo consiste en <span data-decrypt="sonificar datos complejos"
                                data-chars="█▓▒░"
-                               data-speed="60">sonificar datos complejos</span>.</p>
+                               data-speed="30">sonificar datos complejos</span>.</p>
 
 
 \begin{equation}

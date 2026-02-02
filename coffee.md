@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-# The Sound of Coffee: A Symphony of Climate Data and Cultural Memory
+# <p>The Sound of Coffee: <span data-decrypt="A Symphony of Climate Data and Cultural Memory"
+                               data-chars="█▓▒░"
+                               data-speed="30">A Symphony of Climate Data and Cultural Memory</span>.</p>
+                               
 This project is a deep listening into the heartbeat of Costa Rica: its coffee fields. Conceived as part of an advanced scientific research laboratory, it translates a year's worth of micrometeorological data—the invisible exchange of matter and energy between coffee plants and the atmosphere—into a three-movement orchestral suite. It is a work of parametric sonification where scientific precision meets cultural resonance.
 
 ## The Core: Data as a Living Score
