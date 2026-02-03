@@ -1,6 +1,7 @@
 ---
 layout: cloud
 ---
+
 # Polyrhythmic Harmonies from the Sky
 
 This project is an act of listening from a great height. It takes the slow, majestic transit of clouds over Costa Rica, captured by the GOES-16 satellite, and transforms it into generative musical architectures. It is not a literal translation, but a second conversation: where the wind that moves the clouds becomes the pulse that activates musical wind chimes, creating polyrhythms that reflect the density and geography of the cloud formations.
