@@ -18,7 +18,7 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
     <h2 class="subtitle">
-      {{ site.description }}
+      {{ site.description | default: site.github.project_tagline }}</h2> 
       </h2>
 
       </div>

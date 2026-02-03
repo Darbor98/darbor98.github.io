@@ -17,7 +17,7 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bg_clouds.jpg") 0 0;
+  background: $body-background url("../images/clouds.jpg") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -172,7 +172,7 @@ pre {
 }
 
 code.highlighter-rouge {
-  background: rgba(0,0,0,0.40);
+  background: rgba(20,20,20,0.20);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0px 3px;
   margin: 0px -3px;
@@ -340,7 +340,7 @@ a {
 
 /* En tu CSS principal */
 .decrypted-text {
-  --primary-color: #3a86ff;
+  --primary-color: #d96c06;
   --accent-color: #ff006e;
   --terminal-bg: #0a0e14;
   --terminal-text: #e6edf3;
