@@ -11,4 +11,5 @@ I am a physicist and musician operating where data becomes emotion. My work tran
 - [cd /MAD-series_instruments](./mad-series.md)
 - [cd /poems-from-gammaRays](./gamma_poems.md)
 - [cd /coffee's-sounds](./coffee.md)
+- [cd /star_maps-its_a_cold_day.rain](./stars.md)
 - [cd /beyond](./another-page.md)
