@@ -17,7 +17,7 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bg_clouds_2.png") 0 0;
+  background: $body-background url("../images/bg_clouds_3.jpg") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -78,7 +78,6 @@ header h1 {
 
 
 header h1:before {
-  content: ">> ";
   font-size: 24px;
 }
 
@@ -172,7 +171,7 @@ pre {
 }
 
 code.highlighter-rouge {
-  background: rgba(20,20,20,0.20);
+  background: rgba(0,0,0,0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0px 3px;
   margin: 0px -3px;
