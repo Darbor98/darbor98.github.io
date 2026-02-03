@@ -1,5 +1,5 @@
 ---
-layouts: default_2
+layout: default_2
 ---
 
 Hello.
