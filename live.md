@@ -1,8 +1,8 @@
 ---
 layout: default_2
 ---
-
 Hello.
+
 On this occasion, I want to address a sensitive topic that is different from my usual themes: suicide prevention. September is the month dedicated to raising awareness about this issue that affects a large number of people worldwide. According to the World Health Organization (WHO), there are over 700,000 suicides recorded worldwide each year, which is an alarming figure, equivalent to nearly 2,000 people per day taking their own lives.
 
 The purpose of this work I present is to show respect and support the cause of creating awareness about this issue.
