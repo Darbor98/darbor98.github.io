@@ -4,38 +4,38 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style_clouds.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/clouds.scss?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
 
-	{% seo %}
+{% seo %}
   </head>
 
   <body>
-	<header class="site-header">
-	  <div class="terminal-bar">
-		<div class="terminal-dots">
-		  <span style="background:#ff5f56;"></span>
-		  <span style="background:#ffbd2e;"></span>
-		  <span style="background:#27ca3f;"></span>
-		</div>
-	  </div>
-	  
-	  <!-- Efecto de texto que escribe (requiere JS) -->
-	  <div class="dynamic-title">
-		<h1 id="typewriter"> >> <span class="typed-text"></span><span class="cursor"></span></h1>
-	  </div>
-	</header>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+    <h2 class="subtitle">
+      {{ site.description | default: site.github.project_tagline }}</h2> 
+      </h2>
+
+      </div>
+    </header>
 
     <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
-    <script src="{{ '/assets/js/DecryptedTextSimple.js' | relative_url }}"></script>
+
+  <script src="{{ '/assets/js/DecryptedTextSimple.js' | relative_url }}"></script>
 	<script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
 	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-  </body>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   
 
+  </body>
 </html>
