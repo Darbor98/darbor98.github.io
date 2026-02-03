@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_2
 ---
 # this place made me calm | a pixel art landscape
 Esta obra —una pieza de pixel art lo-fi generada algorítmicamente— fue reconocida con una **mención especial** en el Certamen Estudiantil de Artes Visuales Bidimensionales 2025 de la Universidad de Costa Rica. El jurado destacó su carácter innovador y experimental, situándose en la frontera entre el análisis de datos, la programación creativa y la expresión visual íntima.

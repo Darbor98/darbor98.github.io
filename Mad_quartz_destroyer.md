@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_2
 ---
 # The Bass, MAD: Quartz Transformer
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gamma
 ---
 # Gamma-Ray Sonnets: An Algorithmic Bridge Between Astrophysical Violence and Human Emotion
 This project is an intimate experiment in translation, not between languages, but between domains of knowledge and feeling. It asks: **what poetic form emerges when the most violent processes in the universe—gamma-ray emissions from supernovae, pulsars, and black holes—are made to guide the construction of a human poem?**

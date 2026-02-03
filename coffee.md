@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_2
 ---
 # The Sound of Coffee: <span data-decrypt="A Symphony of Climate Data and Cultural Memory" data-speed="20" data-iterations="12">A Symphony of Climate Data and Cultural Memory</span>
  
