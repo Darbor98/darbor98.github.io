@@ -8,6 +8,7 @@ I am a physicist and musician operating where data becomes emotion. My work tran
 
 - [cd /Polyrhythmic-Harmonies-from-the-Sky](./clouds.html)
 - [cd /this_place_made_me_calm-PIXEL-LANDSCAPE](./pixel_landscape_ucr.html).
+- [cd /A-love-letter-to-live](./live.md)
 - [cd /MAD-series_instruments](./mad-series.md)
 - [cd /poems-from-gammaRays](./gamma_poems.md)
 - [cd /coffee's-sounds](./coffee.md)
