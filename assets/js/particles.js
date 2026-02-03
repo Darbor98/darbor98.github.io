@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.y = -10;
       this.size = Math.random() * 2 + 0.5;
       this.speed = Math.random() * 0.5 + 0.2;
-      this.color = Math.random() > 0.7 ? '#3a86ff' : '#ff006e';
+      this.color = Math.random() > 0.7 ? '#000000' : '#cccccc';
       this.oscillation = Math.random() * Math.PI * 2;
     }
     
