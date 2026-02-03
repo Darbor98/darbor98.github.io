@@ -58,3 +58,5 @@ The ultimate goal is simple and profound: that by listening to the polyrhythmic 
 
 ### Read the full article:
 - [cd ./Polyrhythmic-Harmonies-from-the-Sky:-Transforming-Satellite-Images-of-Clouds-into-Musical-Compositions-through-Algorithms.adsabs.harvard.edu.pdf](https://ui.adsabs.harvard.edu/abs/2024arXiv240811461D/abstract)
+
+[cd /back](./index.md)
