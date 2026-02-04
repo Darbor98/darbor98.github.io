@@ -1,5 +1,5 @@
 ---
-layout: cloud
+layout: default_2
 ---
 # Polyrhythmic Harmonies from the Sky
 
