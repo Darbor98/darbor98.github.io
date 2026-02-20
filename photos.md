@@ -13,6 +13,10 @@ layout: default_2
 ![8](darbor98.github.io/assets/images/1735276946624_2.jpeg)
 ![9](darbor98.github.io/assets/images/lasalsa.jpeg)
 ![10](darbor98.github.io/assets/images/1735276947056.jpeg)
+![11](darbor98.github.io/assets/images/IMG_20170717_144954.jpg)
+![12](darbor98.github.io/assets/images/HEad.jpg)
+![13](darbor98.github.io/assets/images/IMG_20200115_1729082 (2).jpg)
+![14](darbor98.github.io/assets/images/IMG_20170717_144220.jpg)
 
 
 [cd /back](./index.md)
