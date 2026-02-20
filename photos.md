@@ -15,7 +15,7 @@ layout: default_2
 ![10](darbor98.github.io/assets/images/1735276947056.jpeg)
 ![11](darbor98.github.io/assets/images/IMG_20170717_144954.jpg)
 ![12](darbor98.github.io/assets/images/HEad.jpg)
-![13](darbor98.github.io/assets/images/IMG_20200115_1729082 (2).jpg)
+![13](darbor98.github.io/assets/images/IMG_20200115_1729082_2.jpg)
 ![14](darbor98.github.io/assets/images/IMG_20170717_144220.jpg)
 
 
