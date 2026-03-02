@@ -1,5 +1,5 @@
 ---
-layauot: default_2
+layout: default_2
 ---
 
 ## If you have any recommendations or questions about any topic, or even ideas for collaborations, you can contact me at:
