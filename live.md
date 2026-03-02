@@ -21,7 +21,7 @@ Continuing with the sonification, the idea for this work emerged one rainy night
 
 My first step was to search for data related to the subject. I found articles in national newspapers and academic studies from universities. Then, I used statistics provided by the National Institute of Statistics and Censuses (INEC), which cover annual suicides in Costa Rica from 1950 to last year (2022), broken down by gender. According to these data, Costa Rica has recorded 11,958 suicides in 72 years, a sad figure that increases year after year. It is important to note that official figures often fall short of reality, especially in situations like this.
 
-![./suic](darbor98.github.io/assets/images/1_py1gfqA7x8vhx2RAa1Xhxw.webp)
+![./suic](darbor98.github.io/assets/images/suic.png)
 
 With this data in hand, I planned how to carry out the sonification. My approach involved mapping death figures to musical notes. To represent annual changes in the figures, I devised the use of arpeggios: a descending arpeggio when the figures increase and an ascending arpeggio when they decrease. I associated high-pitched piano notes with low figures and low-pitched notes with high figures. In this way, as the number of annual suicides increases, the piece becomes more somber, reflecting the gravity of the situation. Additionally, the decreasing notes also symbolize the descent that leads people to make this desperate decision.
 
@@ -35,4 +35,8 @@ It is a love letter to the people I love who have gone through difficult situati
 
 Although this piece is dedicated to specific individuals, I want to extend it to anyone who has contemplated suicide.
 
+[echoes-bandcamp.mp3](https://borterionmusic.bandcamp.com/track/echoes-of-a-life-that-scream-in-silence)
+
 This is for you. You are not alone.
+
+
