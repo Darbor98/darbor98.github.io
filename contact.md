@@ -4,7 +4,9 @@ layout: default_2
 
 ## If you have any recommendations or questions about any topic, or even ideas for collaborations, you can contact me at:
 
-- email: bor@borterion.art
+### e-mail:
+
+- bor@borterion.art
 
 ### My music on Bandcamp:
 
