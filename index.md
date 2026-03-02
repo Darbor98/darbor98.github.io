@@ -14,3 +14,4 @@ I am a physicist and musician operating where data becomes emotion. My work tran
 - [cd /coffee's-sounds](./coffee.md)
 - [cd /star_maps-its_a_cold_day.rain](./stars.md)
 - [cd /some_photos](./photos.md)
+- [mail -s "find me"](./contac.md)
