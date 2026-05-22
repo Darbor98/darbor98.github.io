@@ -41,3 +41,8 @@ La parte musical puede ser accedida mediante el siguiente link:
 [cd /this-place-made-me-calm](https://youtu.be/xwQfONyBQ2k?si=-a89swe1fTHnaiJB)
 
 ![this-place-made-me-calm](darbor98.github.io/assets/images/out_-29.png)
+
+A continuación se adjunta el acta de premiación: 
+![this-place-made-me-calm-acta1](darbor98.github.io/assets/images/actaCertamen2025_page-0001.jpg)
+![this-place-made-me-calm-acta2](darbor98.github.io/assets/images/actaCertamen2025_page-0002.jpg)
+![this-place-made-me-calm-acta3](darbor98.github.io/assets/images/actaCertamen2025_page-0003.jpg)
