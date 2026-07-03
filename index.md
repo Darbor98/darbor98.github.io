@@ -1,17 +1,25 @@
 ---
-layout: default_2
+layout: home
+title: It's Spring!
 ---
-# Who am I?
 
-I am a physicist and musician operating where data becomes emotion. My work transforms physical signals and algorithms into music, sound design, and software instruments. Moving between ambient textures, archival materials, and custom-built tools, I treat sonification as a way of listening to the invisible. I embrace minimal hardware and "obsolete" tech to explore slowness, melancholia, and the physical shape of data—turning scientific structures into something you can feel.
+{% for post in site.posts %}
+{% assign length = site.posts.size %}
+{% assign lengthID = site.posts.size | plus: 1%}
 
-
-- [cd /Polyrhythmic-Harmonies-from-the-Sky](./clouds.html)
-- [cd /this_place_made_me_calm-PIXEL-LANDSCAPE](./pixel_landscape_ucr.html).
-- [cd /A-love-letter-to-live](./live.md)
-- [cd /MAD-series_instruments](./mad-series.md)
-- [cd /poems-from-gammaRays](./gamma_poems.md)
-- [cd /coffee's-sounds](./coffee.md)
-- [cd /star_maps-its_a_cold_day.rain](./stars.md)
-- [cd /some_photos](./photos.md)
-- [mail -s "find me"](./contact.md)
+  <div id="js-{{ forloop.index }}" class="post -fixed{% if forloop.index == 1 %} -first{% endif %}{% if forloop.index == length %} -last{% endif %}">
+    <span id="{{ post.url | remove: '/' }}">
+    {% if forloop.index != 1 %}
+      <div class="post-header ctnr-golden">
+        <h1 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h1>
+      </div>
+    {% endif %}
+    </span>
+    <img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{post.image}}.jpeg" srcset="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{post.image}}.jpeg 1000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{post.image}}-large.jpeg 2000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{post.image}}-small.jpeg 500w" sizes="(min-width: 768px) 50vw, 100vw">
+    <div class="ctnr-wide">
+    {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
