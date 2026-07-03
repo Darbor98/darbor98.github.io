@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Cosmic Musical Box
-
+image:
 ---
 # A cosmic musical box
 
