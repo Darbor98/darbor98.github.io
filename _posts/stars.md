@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: post
+title: A Cosmic Musical Box
+
 ---
 # A cosmic musical box
 

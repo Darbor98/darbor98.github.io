@@ -39,7 +39,7 @@ title: borterion
 tagline: physicist | artist
 keywords: 'physics, art, music, archeology'
 description: 'A phyisicist making art with the universe'
-url: https://connor-baer.github.io
+url: https://borterion.com
 baseurl: '/spring'
 assets: '/assets'
 images: '/images'
@@ -54,8 +54,8 @@ google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 author:
   name: Connor Bär
-  url: http://connorbaer.co
-  email: hello@connorbaer.co
+  url: http://borterion.com
+  email: bor@borterion.com
   twitter: connor_baer
 
 social:

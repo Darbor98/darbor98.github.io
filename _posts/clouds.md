@@ -1,5 +1,7 @@
 ---
-layout: default_2
+layout: post
+title: Polyrhythmic Harmonies from the Sky
+image: map_costa_rica
 ---
 # Polyrhythmic Harmonies from the Sky
 
