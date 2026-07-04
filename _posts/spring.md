@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Who am I?
+image: frame_00194
 ---
 I am a physicist and musician operating where data becomes emotion. My work transforms physical signals and algorithms into music, sound design, and software instruments. Moving between ambient textures, archival materials, and custom-built tools, I treat sonification as a way of listening to the invisible. I embrace minimal hardware and "obsolete" tech to explore slowness, melancholia, and the physical shape of data—turning scientific structures into something you can feel.
 
