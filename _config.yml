@@ -38,12 +38,12 @@ dark_theme: true
 title: borterion
 tagline: physicist | artist
 keywords: 'physics, art, music, archeology'
-description: 'A phyisicist making art with the universe'
+description: 'A phyisicist making art with the universe. t1'
 url: https://borterion.art
 baseurl: ''
 assets: '/assets'
 images: '/images'
-logo: /ass/ets/apple-icon-144x144.png # Cambiar
+logo: /ass/ets/BOR22_w_favicon.png # Cambiar
 
 author:
   name: Carlos Darío Badilla Cerdas
