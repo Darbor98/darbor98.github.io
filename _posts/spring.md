@@ -16,3 +16,6 @@ I am a physicist and musician operating where data becomes emotion. My work tran
 #- [cd /star_maps-its_a_cold_day.rain](./stars.md)
 #- [cd /some_photos](./photos.md)
 #- [mail -s "find me"](./contact.md)
+
+
+— _By [Elizabeth Bentley](https://allpoetry.com/poem/8609041-Ode-To-Spring-by-Elizabeth-Bentley)_
