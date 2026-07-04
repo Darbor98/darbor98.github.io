@@ -43,7 +43,7 @@ url: https://borterion.art
 baseurl: ''
 assets: '/assets'
 images: '/images'
-logo: /ass/ets/BOR22_w_favicon.png # Cambiar
+logo: /assets/icons/BOR22_w_favicon.png # Cambiar
 
 author:
   name: C. Darío Badilla C.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paris in Spring
-image: paris
+image: bg_prin-2
 ---
 
 <span class="caps" alt="T">he</span>city's all a-shining   
