@@ -1,7 +1,6 @@
 ---
 layout: home
 title: who am I?
-image: frame_00194
 ---
 
 {% for post in site.posts %}
