@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+tile: l
 ---
 <!-- index.md -->
 ---
