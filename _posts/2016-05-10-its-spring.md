@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's Spring!
-image: spring
+image: prim1
 ---
 
 <span class="caps" alt="W">elcome</span>, sweet season of delight,   
