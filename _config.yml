@@ -32,7 +32,7 @@ permalink: /:title/
 compress_html:
   clippings: all
   comments: all
-dark_theme: false
+dark_theme: true
 
 # Site meta
 title: borterion
@@ -40,7 +40,7 @@ tagline: physicist | artist
 keywords: 'physics, art, music, archeology'
 description: 'A phyisicist making art with the universe'
 url: https://borterion.art
-baseurl: '/spring'
+baseurl: '/'
 assets: '/assets'
 images: '/images'
 logo: /ass/ets/apple-icon-144x144.png # Cambiar
@@ -54,7 +54,7 @@ author:
 social:
   twitter: https://twitter.com/Borterion
   #instagram: https://instagram.com/borterion
-  github: https://github.com/borterion/spring
+  #github: https://github.com/borterion/spring
   #medium: https://medium.com/@borterion
 
 version: 4.0.0
