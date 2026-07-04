@@ -40,7 +40,7 @@ tagline: physicist | artist
 keywords: 'physics, art, music, archeology'
 description: 'A phyisicist making art with the universe'
 url: https://borterion.art
-baseurl: 
+baseurl: ''
 assets: '/assets'
 images: '/images'
 logo: /ass/ets/apple-icon-144x144.png # Cambiar
