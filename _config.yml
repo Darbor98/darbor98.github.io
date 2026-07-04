@@ -40,7 +40,7 @@ tagline: physicist | artist
 keywords: 'physics, art, music, archeology'
 description: 'A phyisicist making art with the universe'
 url: https://borterion.art
-baseurl: '/spring'
+baseurl: '/'
 assets: '/assets'
 images: '/images'
 logo: /ass/ets/apple-icon-144x144.png
@@ -67,7 +67,7 @@ social:
 version: 4.0.0
 
 github:
-  repo: https://github.com/connor-baer/spring
+  repo: https://github.com/connor-baer/springindex
 
 # Integrations
 # typekit:              fcv7rfe
