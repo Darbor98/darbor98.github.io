@@ -1,6 +1,6 @@
 ---
 layout: home
-title: who am I?
+title: Physics
 ---
 
 {% for post in site.music %}
