@@ -3,5 +3,8 @@ layout: page
 title: Success!
 ---
 <div class="ctnr-golden">
-    <h6>I have received your message and will get back to you as soon as possible. Meanwhile, say hi on <a href="https://twitter.com/connor_baer" class="strong link">Twitter</a> or read my stories on <a href="https://medium.com/@connor_baer" class="strong link">Medium</a>!</h6>
+    <h6>Si tienes preguntas, sugerencias o retroalimentación, puedes contactarme en <a href="https://bor@borterion.art" class="strong link">bor@borterion.art</a> o en redes:
+    <a href="https://medium.com/@connor_baer" class="strong link">Instagram</a>!</h6>
+    <a href="https://medium.com/@connor_baer" class="strong link">Tiktok</a>!</h6>
+    <a href="https://medium.com/@connor_baer" class="strong link">Facebook</a>!</h6>
 </div>

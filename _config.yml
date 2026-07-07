@@ -32,13 +32,13 @@ permalink: /:title/
 compress_html:
   clippings: all
   comments: all
-dark_theme: true
+dark_theme: false
 
 # Site meta
 title: borterion
 tagline: physicist | artist
 keywords: 'physics, art, music'
-description: 'A phyisicist making art with the universe. I am a physicist and artist, exploring the universe through my work. My art is inspired by the beauty and complexity of the cosmos, and I strive to create pieces that capture the essence of the universe in a unique and meaningful way.'
+description: 'A phyisicist making art with the universe.'
 url: https://borterion.art
 baseurl: ''
 assets: '/assets'
