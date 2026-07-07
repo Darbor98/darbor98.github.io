@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Success!
-image: 
+image: bg_prin-2
 ---
 <div class="ctnr-golden">
     <h6>Si tienes preguntas, sugerencias o retroalimentación, puedes contactarme en <a href="https://bor@borterion.art" class="strong link">bor@borterion.art</a> o en redes:
