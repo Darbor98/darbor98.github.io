@@ -3,9 +3,9 @@ layout: home
 title: Physics
 ---
 
-{% for post in site.music %}
-{% assign length = site.music.size %}
-{% assign lengthID = site.music.size | plus: 1%}
+{% for post in site.physics %}
+{% assign length = site.physics.size %}
+{% assign lengthID = site.physics.size | plus: 1%}
 
   <div id="js-{{ forloop.index }}" class="post -fixed{% if forloop.index == 1 %} -first{% endif %}{% if forloop.index == length %} -last{% endif %}">
     <span id="{{ post.url | remove: '/' }}">
