@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Success!
+title: Contacto
 image: bg_prin-2
 ---
 <div class="ctnr-golden">

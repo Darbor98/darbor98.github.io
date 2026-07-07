@@ -1,6 +1,6 @@
 ---
 layout: home
-title: who am I?
+title: Petroglifos
 ---
 
 {% for post in site.posts %}
