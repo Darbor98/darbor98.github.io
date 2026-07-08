@@ -1,0 +1,46 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title %} {{ page.title }} · {{ site.title }} {% else %} {{ site.title }} {% endif %}
+  </title>
+
+  <!-- Hoja de estilos propia, aislada del tema principal (no toca styles.css) -->
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/terminal.css">
+
+  {% include core/icons.html %}
+</head>
+
+<body class="terminal">
+  <div class="crt">
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <div class="terminal-window">
+      <div class="terminal-titlebar">
+        <span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="terminal-path">{{ page.title | default: site.title | downcase | replace: ' ', '_' }}@borterion:~$</span>
+      </div>
+
+      <div class="terminal-body">
+        {{ content }}
+      </div>
+
+      <p class="terminal-prompt">
+        <span class="terminal-caret">&gt;</span>
+        <a href="{{ site.baseurl }}/">volver_al_sitio_principal</a>
+        <span class="blink">_</span>
+      </p>
+    </div>
+  </div>
+
+  <script src="{{ site.baseurl }}{{ site.assets }}/terminal.js"></script>
+</body>
+</html>

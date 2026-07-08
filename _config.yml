@@ -73,7 +73,7 @@ google_analytics_key: UA-94021817-2
 # Content
 excerpt_separator: <!-- Read more -->
 
-navigation:
-  Medium: https://medium.com/@borterion
-  Twitter: https://twitter.com/Borterion
-  Github: https://github.com/borterion
+#navigation:
+#  Medium: https://medium.com/@borterion
+#  Twitter: https://twitter.com/Borterion
+#  Github: https://github.com/borterion

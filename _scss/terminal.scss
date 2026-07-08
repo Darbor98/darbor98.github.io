@@ -1,0 +1,183 @@
+// ==== TERMINAL THEME ==== //
+// Estilos aislados para /musica — no importa nada de _scss/core ni open-color,
+// para que nunca choque con el tema principal de los petroglifos.
+
+$term-bg: #0a0e0a;
+$term-green: #33ff66;
+$term-green-dim: #1c9e3f;
+$term-amber: #ffb000;
+
+@font-face {
+  font-family: 'terminal-mono';
+  src: local('Courier New'), local('Courier');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body.terminal {
+  margin: 0;
+  padding: 0;
+  background: $term-bg;
+  color: $term-green;
+  font-family: 'terminal-mono', 'Courier New', Courier, monospace;
+  min-height: 100vh;
+}
+
+.crt {
+  position: relative;
+  min-height: 100vh;
+  padding: 4vh 4vw;
+  overflow: hidden;
+
+  // viñeta sutil + resplandor verde, como un monitor viejo
+  background:
+    radial-gradient(ellipse at center, rgba(51, 255, 102, 0.06) 0%, rgba(0, 0, 0, 0) 70%),
+    $term-bg;
+}
+
+// Líneas de escaneo superpuestas
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
+    rgba(0, 0, 0, 0) 2px
+  );
+  mix-blend-mode: multiply;
+  animation: flicker 7s infinite;
+}
+
+@keyframes flicker {
+  0%, 96%, 100% { opacity: 1; }
+  97% { opacity: 0.94; }
+  98% { opacity: 1; }
+  99% { opacity: 0.9; }
+}
+
+.terminal-window {
+  max-width: 780px;
+  margin: 0 auto;
+  border: 1px solid $term-green-dim;
+  box-shadow: 0 0 24px rgba(51, 255, 102, 0.15), inset 0 0 40px rgba(51, 255, 102, 0.03);
+}
+
+.terminal-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  border-bottom: 1px solid $term-green-dim;
+  font-size: 0.8rem;
+  color: $term-green-dim;
+}
+
+.terminal-dots {
+  display: inline-flex;
+  gap: 6px;
+
+  i {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: $term-green-dim;
+    display: inline-block;
+  }
+}
+
+.terminal-path {
+  opacity: 0.8;
+}
+
+.terminal-body {
+  padding: 5vh 6vw;
+  line-height: 1.7;
+  font-size: 1rem;
+  text-shadow: 0 0 2px rgba(51, 255, 102, 0.5);
+
+  h1, h2, h3 {
+    color: $term-amber;
+    text-shadow: 0 0 3px rgba(255, 176, 0, 0.5);
+    text-transform: lowercase;
+
+    &::before {
+      content: '# ';
+      opacity: 0.6;
+    }
+  }
+
+  a {
+    color: $term-green;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+    &:hover {
+      color: $term-amber;
+    }
+  }
+
+  p {
+    margin: 0 0 1.4em;
+  }
+
+  img,
+  audio,
+  video {
+    max-width: 100%;
+    border: 1px solid $term-green-dim;
+  }
+
+  code {
+    background: rgba(51, 255, 102, 0.08);
+    padding: 0 4px;
+  }
+}
+
+.terminal-prompt {
+  padding: 10px 6vw 20px;
+  margin: 0;
+  border-top: 1px solid $term-green-dim;
+  font-size: 0.9rem;
+
+  a {
+    color: $term-green;
+
+    &:hover {
+      color: $term-amber;
+    }
+  }
+}
+
+.terminal-caret {
+  opacity: 0.6;
+  margin-right: 6px;
+}
+
+.blink {
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@media (max-width: 600px) {
+  .crt {
+    padding: 0;
+  }
+
+  .terminal-window {
+    border: none;
+    box-shadow: none;
+  }
+
+  .terminal-body {
+    padding: 6vh 6vw;
+  }
+}
