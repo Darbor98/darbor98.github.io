@@ -1,5 +1,5 @@
 ---
-layout: terminal
+layout: style_-2
 title: pag1
 permalink: /musica/pag1/
 ---

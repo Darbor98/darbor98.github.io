@@ -1,5 +1,5 @@
 ---
-layout: terminal
+layout: style_2
 title: musica
 permalink: /musica/
 ---
