@@ -43,7 +43,7 @@ url: https://borterion.art
 baseurl: ''
 assets: '/assets'
 images: '/images'
-logo: /ass/ets/icons/BOR22_w_favicon.png # Cambiar
+logo: /ass/ets/icons/favicon.png # Cambiar
 
 author:
   name: C. Darío Badilla C.
@@ -58,9 +58,6 @@ social:
   #medium: https://medium.com/@borterion
 
 version: 4.0.0
-
-#github:
-#  repo: https://github.com/connor-baer/springindex
 
 # Integrations
 # typekit:              fcv7rfe
