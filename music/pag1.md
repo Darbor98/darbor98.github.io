@@ -1,5 +1,5 @@
 ---
-layout: style_-2
+layout: style_2
 title: pag1
 permalink: /musica/pag1/
 ---
