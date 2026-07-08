@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: style_2
 title: hola
 image: prim1
 ---
@@ -18,7 +18,7 @@ fghjklñ{
  faszd
  jihyugcfvgbñn
  ñlkjjhghjkm
- lkjhdctgvbhj
+ lkjhdctgvbhjaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
  
 
 <iframe src="https://kroscloud.com/3d/Petroglifo-Primavera-PECH-001/y6l4?a=1" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin allow-popups allow-modals" allowFullScreen mozallowfullscreen webkitallowfullscreen></iframe>
