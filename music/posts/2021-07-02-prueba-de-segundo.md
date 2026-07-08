@@ -1,11 +1,7 @@
 ---
-layout: post
+layout: default
 title: hola-musica
-<<<<<<< HEAD:music/posts/2021-07-02-prueba-de-segundo.md
 permalink /music/2021-03-02-prueba-de-segundo 
-=======
-image: bg_prin-2
->>>>>>> b942ab7ff02050382ce46284ab8d184a10cb4519:music/posts/2021-03-02-prueba-de-segundo.md
 ---
 
 ÑACA ÑACA INTENTO DE StercerO PARTE DE MÚSICAj
