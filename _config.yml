@@ -37,8 +37,8 @@ dark_theme: false
 # Site meta
 title: borterion
 tagline: physicist | artist
-keywords: 'physics, art, music'
-description: 'A phyisicist making art with the universe.'
+keywords: 'physics, art, music, heritage'
+description: 'Physicist, musician, and creative developer transforming scientific data into music, software, and generative art through sonification. My work also explores computational tools for the preservation and communication of archaeological heritage.'
 url: https://borterion.art
 baseurl: ''
 assets: '/assets'
