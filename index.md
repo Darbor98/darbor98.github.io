@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Petroglifos
+title: home | bor
 ---
 
 {% for post in site.posts %}
