@@ -41,11 +41,11 @@ html {
 
 ::-moz-selection {
   color: palette(black);
-  background: palette(green, lighter);
+  background: palette(#d9480f, lighter);
 }
 ::selection {
   color: palette(black);
-  background: palette(green, lighter);
+  background: palette(#d9480f, lighter);
 }
 
 body {
