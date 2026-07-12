@@ -1,5 +1,5 @@
 ---
-layout: terminal
+layout: default_2
 title: mad
 image: 
 ---
