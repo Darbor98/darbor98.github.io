@@ -1,7 +1,7 @@
 ---
-layout: default_2
+layout: page
 title: mad
-image: 
+permalin: mad-series.md
 ---
 # The Philosophy of Personalization: The MAD Series
 Since I was a teenager, I began decorating my world like anyone else—covering notebook covers with clippings, prints, and drawings. Today, more than fifteen years later, modifying my belongings has become a necessity. When I own something meaningful, I only feel it is truly mine once I have altered it, even if only through a small, seemingly insignificant detail.
