@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mad
+title: 
 permalin: mad-series.md
 ---
 # The Philosophy of Personalization: The MAD Series
